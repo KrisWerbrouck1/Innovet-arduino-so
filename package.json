@@ -1,0 +1,25 @@
+{
+  "name": "innovet-arduino-so",
+  "version": "0.0.0",
+  "description": "Basis arduino cursus voor het SO onderwijs",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "Kris Werbrouck",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-zooming": "^1.1.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrisWerbrouck1/Innovet-arduino-so.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KrisWerbrouck1/Innovet-arduino-so.git/issues"
+  },
+  "homepage": "https://github.com/KrisWerbrouck1/Innovet-arduino-so.git#readme"
+}
