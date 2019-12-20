@@ -11,7 +11,7 @@ Het arduino bord bevat een microcontroller met de nodige extra componenten. Sens
 
 De sensoren en actuatoren nemen we zeker op in het blokschema indien deze aanwezig zijn. Voeding en communicatie indien nodig.
 
-![Blokschema](./assets/afbeeldingen/Blokschema.png)
+![Blokschema](./assets/afbeeldingen/Blokschema.PNG)
 
 
 Sensoren lezen informatie binnen. Enkele voorbeelden.
@@ -55,7 +55,7 @@ Het arduino uno bord is ideaal om te leren programmeren, kennis te maken met sen
 
 De arduino UNO beschikt over volgende pinlayout:
 
-![Arduino UNO pinlayout](./assets/afbeeldingen/arduinoUNOPinlayout.png)
+![Arduino UNO pinlayout](./assets/afbeeldingen/arduinoUnoPinlayout.png)
 
 De pinnen 0 tot en met 13 kunnen gebruikt worden als een digitale ingang of uitgang.
 De pinnen A0 tot en met A5 kunnen gebruikt worden als analoge ingang.
