@@ -7,9 +7,7 @@ module.exports = {
       { text: 'Company', link: 'http://sint-rembert.be' },
       { text: 'License', link: '/LICENSE.md' },
     ],
-    sidebar: [
-      ['/', 'Home'],
-    ],
+    sidebar: [['/', 'Home'], ['/1ste-programma/', '1ste programma']],
     repo: 'https://github.com/KrisWerbrouck1/Innovet-arduino-so.git',
     docsDir: 'docs',
     docsBranch: 'master'
