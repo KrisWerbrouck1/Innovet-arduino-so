@@ -7,7 +7,14 @@ module.exports = {
       { text: 'Company', link: 'http://sint-rembert.be' },
       { text: 'License', link: '/LICENSE.md' },
     ],
-    sidebar: [['/', 'Home'], ['/1ste-programma/', '1ste programma']],
+    sidebar: [
+      ['/', 'Home'],
+      ['/1ste-programma/', '1ste programma'],
+      ['/informatie-naar-computer-sturen/', 'Informatie naar computer sturen'],
+      ['/constanten/', 'Constanten'],
+      ['/variabelen/', 'Variabelen'],
+      ['/controlestructuren/', 'Controlestructuren']
+    ],
     repo: 'https://github.com/KrisWerbrouck1/Innovet-arduino-so.git',
     docsDir: 'docs',
     docsBranch: 'master'
