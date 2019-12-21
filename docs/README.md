@@ -11,7 +11,7 @@ Het arduino bord bevat een microcontroller met de nodige extra componenten. Sens
 
 De sensoren en actuatoren nemen we zeker op in het blokschema indien deze aanwezig zijn. Voeding en communicatie indien nodig.
 
-![Blokschema](./assets/afbeeldingen/Blokschema.PNG)
+![Blokschema](./assets/afbeeldingen/Blokschema.png)
 
 
 Sensoren lezen informatie binnen. Enkele voorbeelden.
