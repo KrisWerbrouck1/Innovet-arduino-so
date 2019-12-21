@@ -161,7 +161,7 @@ Het programma bewaren, compileren en in de arduino laden.
 
 Teken hoe de externe led met voorschakelweerstand aangesloten wordt.
 
-![Arduino UNO met breadboard](./assets/afbeeldingen/Bredboard.png)
+![Arduino UNO met breadboard](./assets/afbeeldingen/Breadboard.png)
 
 * Bouw een morse code generator waarbij de morse code doorgezonden wordt met de ingebouwde LED op de arduino. Morsecode bestaat uit korte en lange signalen met daartussen een korte pauze. Elke letter en elke cijfer heeft zijn eigen combinatie. De code werd uitgevonden door Samuel Morse (1835) en is een soort voorloper van de digitale communicatie. Stuur in morse code het bericht SOS door.
 
