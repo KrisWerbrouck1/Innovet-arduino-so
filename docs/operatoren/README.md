@@ -11,7 +11,7 @@ De operatoren voor optellen, aftrekken, vermenigvuldigen, delen en restdeling zi
 | * | vermenigvuldigen | x=x*2; |
 | / | delen | x=x/8; |
 | % | modulo | x=x%3; |
-```
+
 
 Modulo is de rest na een deling. Voorbeelden:
 
