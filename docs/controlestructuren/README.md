@@ -111,6 +111,7 @@ else
 •	Ontwerp een programma om rapport commentaar te geven. Maak gebruik van de If .. elseif .. else  structuur. De invoer verloopt via een vraag in de serial monitor, de weergave eveneens.
 
 | Behaalde uitslag |	Commentaar |
+| --- | --- |
 | Meer dan 90	 | Schitterend gewerkt! |
 | Van 80 tot (en met) 90	| Zeer goed gewerkt! |
 | Van 70 tot 80	| Goed gewerkt! |
@@ -221,6 +222,7 @@ void loop() {
 •	Ontwerp een programma om rapport commentaar te geven. Maak gebruik van de switch-case structuur. De invoer verloopt via een vraag in de serial monitor, de weergave eveneens.
 
 | Behaalde uitslag |	Commentaar |
+| --- | --- |
 | Meer dan 90	 | Schitterend gewerkt! |
 | Van 80 tot (en met) 90	| Zeer goed gewerkt! |
 | Van 70 tot 80	| Goed gewerkt! |
