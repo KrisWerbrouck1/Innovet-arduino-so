@@ -3,13 +3,14 @@
 
 De operatoren voor optellen, aftrekken, vermenigvuldigen, delen en restdeling zijn:
 
-
-| = waarde toekennen | x=4; |
-| + optellen | x=x+6; | 
-| - aftrekken | x=x-2; |
-| * vermenigvuldigen | x=x*2; |
-| / delen | x=x/8; |
-| % modulo | x=x%3; |
+| Operator | Omschrijving | Voorbeeld |
+| --- | --- | --- |
+| = | waarde toekennen | x=4; |
+| + | optellen | x=x+6; | 
+| - | aftrekken | x=x-2; |
+| * | vermenigvuldigen | x=x*2; |
+| / | delen | x=x/8; |
+| % | modulo | x=x%3; |
 ```
 
 Modulo is de rest na een deling. Voorbeelden:
@@ -23,7 +24,8 @@ x=3%4;		//x=3 want 3 gedeeld door 4 is 0, rest 3.
 
 Variabelen worden regelmatig met elkaar vergeleken, bijvoorbeeld in de if… else structuur. Op basis van de uitkomst van de vergelijking worden beslissingen genomen. 
 
-
+| Operator | Omschrijving | Voorbeeld |
+| --- | --- | --- |
 | == | x is gelijk aan y	| x ==y |
 | !=  | x is niet gelijk aan y | x!=y |
 | <	| x is kleiner dan y	| x<y |
