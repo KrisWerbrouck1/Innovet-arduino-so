@@ -13,7 +13,11 @@ module.exports = {
       ['/informatie-naar-computer-sturen/', 'Informatie naar computer sturen'],
       ['/constanten/', 'Constanten'],
       ['/variabelen/', 'Variabelen'],
-      ['/controlestructuren/', 'Controlestructuren']
+      ['/controlestructuren/', 'Controlestructuren'],
+      ['/info-van-computer-ontvangen/', 'Info van computer ontvangen'],
+      ['/operatoren/', 'Operatoren'],
+      ['/strings/', 'Strings'],
+      ['/ingebouwde-functies/', 'Ingebouwde functies']
     ],
     repo: 'https://github.com/KrisWerbrouck1/Innovet-arduino-so.git',
     docsDir: 'docs',
