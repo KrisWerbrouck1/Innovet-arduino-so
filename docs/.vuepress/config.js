@@ -17,7 +17,8 @@ module.exports = {
       ['/info-van-computer-ontvangen/', 'Info van computer ontvangen'],
       ['/operatoren/', 'Operatoren'],
       ['/strings/', 'Strings'],
-      ['/ingebouwde-functies/', 'Ingebouwde functies']
+      ['/ingebouwde-functies/', 'Ingebouwde functies'],
+      ['/eigen-functies/', 'Eigen functies']
     ],
     repo: 'https://github.com/KrisWerbrouck1/Innovet-arduino-so.git',
     docsDir: 'docs',
