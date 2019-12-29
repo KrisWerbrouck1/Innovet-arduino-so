@@ -38,13 +38,13 @@ Sommige arduino borden beschikken over communicatie met een WIFI-netwerk, LORA-n
 
 ![Arduino met wifi communicatie](./assets/afbeeldingen/arduinoIOTInleiding.png)
 
-## Onderzoek info arduino
+## Onderzoek arduino borden
 
-Voor de verwerking kan er gebruik gemaakt worden van een arduino ontwikkelbord.  Er bestaan verschillende arduino borden. Zoek enkele verschillende types op. Kijk als de borden geschikt zijn voor communicatie met een netwerk.
+Er bestaan verschillende arduino borden. (UNO, Mega, ...) Zoek enkele verschillende types op. Kijk als de borden geschikt zijn voor communicatie met een netwerk.
 
 ## Arduino IDE
 
-De ontwikkelomgeving Arduino IDE kan gedownload worden op [Arduino](https://www.arduino.cc/)
+Met de ontwikkelomgeving Arduino IDE kunnen de arduino borden geprogrammeerd worden. De ontwikkelomgeving kan gedownload worden op [Arduino](https://www.arduino.cc/)
 
 ![Arduino IDE](./assets/afbeeldingen/arduinoIDE.png)
 
