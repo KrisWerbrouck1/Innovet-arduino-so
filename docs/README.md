@@ -1,20 +1,20 @@
 # Inleiding
 ## Algemeen
 
-In het IOT-blokschema wordt de Arduino gebruikt voor communicatie met sensoren en actuatoren. Afhankelijk van het type Arduino is communicatie mogelijk met een WIFI-netwerk, LORA-netwerk, ….
+Met het arduino platform kunnen microcontrollers eenvoudig geprogrammeerd worden. Hierdoor is het ideaal geschikt voor leerlingen secundair onderwijs.
 
-![Arduino met wifi communicatie](./assets/afbeeldingen/arduinoIOTInleiding.png)
+Een arduino bord bevat een microcontroller en de nodige componenten voor communicatie met computer.
 
 ## Blokschema arduino met sensoren en actuatoren
 
-Het arduino bord bevat een microcontroller met de nodige extra componenten. Sensoren en actuatoren zijn niet opgenomen op het arduino ontwikkelbord en moeten extern geplaatst worden.
+ Sensoren en actuatoren zijn meestal niet opgenomen op het arduino ontwikkelbord en moeten extern geplaatst worden.
 
-De sensoren en actuatoren nemen we zeker op in het blokschema indien deze aanwezig zijn. Voeding en communicatie indien nodig.
+Het blokschema van een slim toestel bevat meestal wel sensoren of actuatoren.
 
 ![Blokschema](./assets/afbeeldingen/Blokschema.png)
 
 
-Sensoren lezen informatie binnen. Enkele voorbeelden.
+Sensoren lezen informatie binnen. Enkele voorbeelden:
 
 * Temperatuursensoren.
 * Grondvochtigssensoren.
@@ -32,13 +32,19 @@ De communicatie wordt gebruikt om:
 * Programma in de microcontroller op het arduino bord te laden.
 * Informatie weer te geven.
 
+## Externe communicatie
+
+Sommige arduino borden beschikken over communicatie met een WIFI-netwerk, LORA-netwerk, …. Deze borden zijn geschikt voor IOT-toepassingen.
+
+![Arduino met wifi communicatie](./assets/afbeeldingen/arduinoIOTInleiding.png)
+
 ## Onderzoek info arduino
 
 Voor de verwerking kan er gebruik gemaakt worden van een arduino ontwikkelbord.  Er bestaan verschillende arduino borden. Zoek enkele verschillende types op. Kijk als de borden geschikt zijn voor communicatie met een netwerk.
 
 ## Arduino IDE
 
-De ontwikkelomgeving Arduino IDE kan gedownload worden op *[Arduino](https://www.arduino.cc/)
+De ontwikkelomgeving Arduino IDE kan gedownload worden op [Arduino](https://www.arduino.cc/)
 
 ![Arduino IDE](./assets/afbeeldingen/arduinoIDE.png)
 
@@ -88,4 +94,3 @@ Er zijn heel wat verschillende types arduino’s. Kies in de software het gebrui
 De communicatiepoort tussen computer en arduino bord moet eveneens ingesteld worden.
 
 ![Kiezen correcte communicatiepoort](./assets/afbeeldingen/arduinoCommunicatie.png)
-
