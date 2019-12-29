@@ -37,7 +37,6 @@ Deze wordt constant doorlopen om vervolgens te reageren door veranderingen.
 De loop functie is een oneindige lus.
 
 ```cpp
-
 void loop() {
   digitalWrite(13, HIGH);   
   // LED aan (HIGH is logisch "1")
@@ -46,7 +45,6 @@ void loop() {
   // LED uit (LOW is logisch "0")
   delay(1000);// wacht 1 seconde
 }
-
 ```
 ![Grafische voorstelling van een lus in flowcode](./assets/afbeeldingen/1steProgrammaFlowcode.png)
 
@@ -56,13 +54,11 @@ Krullende haakjes geven het begin of het einde aan van een functieblok zoals je 
 Het aantal accolades is altijd een even getal. 
 
 ```cpp 
-
 void loop() {  
   // code
   			{// code
 			}
 }
-
 ```
 
 Let daar goed op want één accolade te weinig en een heel programma kan stoppen met werken. 
@@ -74,9 +70,7 @@ Let daar goed op want één accolade te weinig en een heel programma kan stoppen
 Een puntkomma moet gebruikt worden na elke ingevoerde opdracht. Voorbeeld:
 
 ```cpp 
-
 digitalWrite(13, HIGH);
-
 ```
 Opmerking: Vaak is het zo dat het ontbreken van een puntkomma ervoor zorgt dat de Arduino software niet wil compileren en een error aangeeft op een andere plek dan waar de puntkomma vergeten is. Dat wordt dus lastig zoeken.   
 
@@ -101,13 +95,11 @@ Deze ingebouwde functie wordt meetal gebruikt in de void setup() om een specifie
 Voorbeeld:
 
 ```cpp 
-
 pinMode(pin, OUTPUT);  //maak van “pin” een uitgang
 pinMode(pin, INPUT);  //maak van “pin” een ingang
-
 ```
 
-Opdracht:
+Opdrachten:
 
 Pin 13 als uitgang plaatsen wordt:
 
@@ -123,10 +115,10 @@ pinMode (……………………………………………………….);
 
 ### digitalWrite(pin, value)   
 
-Deze ingebouwde functie digitalWrite maakt een specifieke pin hoog of laag.   
+Deze ingebouwde functie digitalWrite maakt een specifieke pin hoog of laag.
 
 ```cpp 
-digitalWrite(pin, HIGH);   // maak 'pin' hoog   
+digitalWrite(pin, HIGH);   // maak 'pin' hoog
 digitalWrite(pin, LOW);   // maak 'pin' laag   
 ```
 

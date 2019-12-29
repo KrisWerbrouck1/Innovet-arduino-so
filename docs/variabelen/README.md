@@ -2,7 +2,7 @@
 
 Een variabele vertegenwoordigt een getal of tekst en wordt meestal voorgesteld door een logische naam. Voorbeelden ledPin, onTime, …. Variabelen kunnen gedurende het programma meerdere malen een andere waarde aannemen. 
 
-Alle variabelen moeten eenmalig gedeclareerd worden voordat je ze kunt gebruiken. 
+Alle variabelen moeten eerst gedeclareerd worden.
 
 Voor iedere variabele wordt een geheugenplaats gereserveerd in de microcontroller. Er bestaan verschillende types variabelen.
 
@@ -11,18 +11,19 @@ Voor iedere variabele wordt een geheugenplaats gereserveerd in de microcontrolle
 
 Een Boolean variabele kan slechts twee waarden aannemen: true of false. 
 
-Definiëren: 
+Declareren: 
 
 ```cpp
-boolean var1 = true;
+boolean var1 = true; //declaratie en toekennen waarde
 boolean var2 = false;
+boolean var3; //declaratie
 
 ```
 Waarde aanpassen:
 
 ```cpp
 var1 = false;
-
+var2 = true;
 ```
 
 Ontwerp een programma om te onderzoeken met welk decimaal getal true en false bij een boolean overeenkomen. Gebruik hiervoor de functie serial.println.
@@ -38,11 +39,11 @@ Char is de afkorting van charact value of tekenwaarde. Een variabele van het typ
 *[ASCII-tabel](https://www.arduino.cc/en/Reference/ASCIIchart )
 
 
-Definiëren: 
+Declareren: 
 
 ```cpp
-char myChar = 'A';
-char myChar = 65;      // beide zijn gelijk
+char myChar = 'A';     //declaratie en toekennen waarde
+char myChar = 65;
 ```
 
 Waarde aanpassen:
@@ -60,19 +61,23 @@ char myChar = 33;:
 
 Een variabele van het type byte vertegenwoordigt een 8-bit woord (byte). Een byte is een numerieke waarde die kan variëren tussen de 0 en 255. 
 
-Definiëren: 
+Declareren: 
 ```cpp
 byte myByte = 128;
 ```
-Bereken hoeveel 28 is:
+Waarde aanpassen:
+```cpp
+myByte = 129;
+```cpp
 
-Ontwerp een programma om te onderzoeken wat er gebeurt wanneer een variabele van het type byte groter wordt dan 255.
+
+Onderzoeken wat er gebeurt wanneer een variabele van het type byte groter wordt dan 255. Ontwerp hiervoor een programma.
 
 ##	Int
 
 Een variabele van het type integer (int) vertegenwoordigt een positief of negatief geheel getal tussen 32 767 en -32 768. Wordt de waarde groter dan 32 767 dan wordt de waarde terug negatief. Voor een integer wordt 16 bit voorzien in het geheugen.
 
-Definiëren: 
+Declareren: 
 
 ```cpp
 int myInt = 128;
@@ -82,7 +87,7 @@ int myInt = 128;
 
 Een variabele van het type unsigned int vertegenwoordigt een positief getal tussen 0 en 65 535. Voor een integer wordt 16 bit of 2 byte voorzien in het geheugen.
 
-Definiëren: 
+Declareren: 
 ```cpp
 unsigned int myInt = 128;
 ```
@@ -93,7 +98,7 @@ Bereken hoeveel 2^16 is:
 
 Een variabele van het type long vertegenwoordigt een positief of negatief geheel getal tussen 2 147 483 647 en – 2 147 483 648. Voor dit type variabele wordt 32 bit of 4 byte voorzien in het geheugen.
 
-Definiëren:
+Declareren: 
 ```cpp 
 long myLong = 100000;
 ```
@@ -101,7 +106,7 @@ long myLong = 100000;
 
 Een variabele van het type unsigned long vertegenwoordigt een positief getal tussen 0 en 4 294 967 295. Voor een unsigned long wordt 32 bit of 4 byte voorzien in het geheugen.
 
-Definiëren: 
+Declareren: 
 ```cpp 
 unsigned int myLong = 10000000;
 ```
@@ -110,7 +115,7 @@ unsigned int myLong = 10000000;
 
 Een variabele van het type float vertegenwoordigt een positief of negatief decimaal getal met cijfers na de komma tussen 3,4028235 . 1038 tot -3,4028235 . 1038 Voor dit type variabele wordt 32 bit of 4 byte voorzien in het geheugen.
 
-Definiëren: 
+Declareren: 
 ```cpp 
 float pi2Var = 6.28318;
 ```
@@ -119,7 +124,7 @@ float pi2Var = 6.28318;
 
 Bij een arduino uno zijn de specificaties van een float en een double perfect hetzelfde. Bij bepaalde types arduino is een double echter een 8 byte variabele.
 
-Definiëren: 
+Declareren: 
 ```cpp 
 double pi2Var = 6.28318;
 ```
@@ -130,7 +135,7 @@ Opmerking: om te rekenen met floating getallen heeft de microcontroller veel mee
 
 Een variabele van het type array vertegenwoordigt een serie waarden. Elke waarde is aan te wijzen door middel van een index die vanaf 0 begint te tellen. 
 
-Definiëren van een array met 8 integers:
+Declareren van een array met 8 integers en toekennen van waardes.
 
 ```cpp 
 int koelFan[8]= {20,40,80,120,160,200,240,255};

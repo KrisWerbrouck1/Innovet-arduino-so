@@ -1,7 +1,7 @@
 # Operatoren
 ##	Decimale operatoren
 
-De operatoren voor optellen, aftrekken, vermenigvuldigen, delen en restdeling zijn:
+De operatoren voor toekennen, optellen, aftrekken, vermenigvuldigen, delen en restdeling zijn:
 
 | Operator | Omschrijving | Voorbeeld |
 | --- | --- | --- |

@@ -1,7 +1,7 @@
 # Controlestructuren
 ##	For loop
 
-De for-functie herhaalt een actie een aantal vooraf vastgesteld aantal malen. 
+De for lus herhaalt een actie een vooraf vastgesteld aantal malen. 
 
 De syntax:
 
@@ -10,8 +10,6 @@ for (startwaarde; voorwaarde om te stoppen; aanpassing)
 { doeiets;  
 } 
 ```
-
-Dat lijkt lastig, maar het is een makkelijke en vaak gebruikte opdracht. 
 
 Een voorbeeld:  
 ```cpp
@@ -44,7 +42,7 @@ Teken het aansluitschema met Arduino en breadboard.
 
 ##	If
 
-De if opdracht test of bepaalde condities bereikt zijn. Denk bijvoorbeeld aan een analoog signaal dat een bepaalde waarde bereikt waarbij ingegrepen moet worden. In dat geval moet er iets gebeuren. Die actie moet dan plaats vinden binnen de haakjes (zie het voorbeeld hier onder). Wordt er niet aan de voorwaarde voldaan dan wordt de actie tussen de haakjes overgeslagen. 
+De if structuur test of bepaalde condities bereikt zijn. In dat geval moet er iets gebeuren. Die actie moet dan plaats vinden binnen de haakjes (zie het voorbeeld hier onder). Wordt er niet aan de voorwaarde voldaan dan wordt de actie tussen de haakjes overgeslagen. 
 
 Voorbeeld:  
 ```cpp
@@ -53,10 +51,14 @@ if (waardeVariabele ?? waarde)  {     Doe iets;  }
 
 In het voorgaande voorbeeld wordt de waardeVariabele vergeleken met een andere waarde. Die waarde kan echter ook een constante zijn. 
 
-Opmerking: Pas op met het volgende te gebruiken: if(x=10).  Deze is technisch gezien juist. Het geeft x de waarde 10 en heeft als resultaat altijd TRUE. Gebruik liever ‘==’ zodat bij de opdracht  if(x==10) getest wordt gelijk is aan de waarde 10 of niet.  
+Opmerking: Pas op met ```cpp if(x=10)```.  Dit is technisch gezien juist. Het geeft x de waarde 10 en heeft als resultaat altijd TRUE. Gebruik ‘==’.
 
-Bedenk: bij ‘=’ aan de term gelijk en bij ‘==’ aan de term is gelijk aan.
-
+Voorbeeld:
+```cpp
+if (x==10)  {     Doe iets;  }   
+if (x>10)   {     Doe iets;  }
+if (x<10)   {     Doe iets;  }
+```
 ![Grafische voorstelling if structuur](./assets/afbeeldingen/if.png)
 
 ### Oefeningen
@@ -67,7 +69,7 @@ Bedenk: bij ‘=’ aan de term gelijk en bij ‘==’ aan de term is gelijk aan
 
 ##	 If … else
 
-De if… else opdracht maakt het mogelijk hoe dan ook een beslissing te laten nemen.  Bijvoorbeeld je meet dat een digitale input pin hoog is in dat geval wil je dat actie A start. Is de pin echter laag dan moet actie B starten. 
+De if… else structuur maakt het mogelijk hoe dan ook iets uit te voeren.  Bijvoorbeeld je meet dat een digitale input pin hoog is, in dat geval wil je dat actie A start. Is de pin echter laag dan moet actie B starten. 
 
 Dat zou er als volgt uit kunnen zien:
  
@@ -119,9 +121,6 @@ else
 | Van 50 tot 60	| Geslaagd |
 | Minder dan 50	| Onvoldoende |
 
-
-
-
  ## While loop (voorwaardelijke lus)
 
 Een while loop wordt doorlopen zolang aan de voorwaarde voldaan is. In onderstaande voorbeeld zolang de teller<50.
@@ -140,7 +139,6 @@ void loop() {
 ### Oefening:
 
 •	Laat de led verbonden met pin 13 eerst 10 maal knipperen met een frequentie van 1 Hz, en vervolgens 10 maal knipperen met een frequentie van 0,5 Hz. 
-
 
 
 ## Do while loop (voorwaardelijke lus)
@@ -166,8 +164,6 @@ void loop() {
 
 
 •	Laat de led verbonden met pin 13 eerst 10 maal knipperen met een frequentie van 1 Hz, en vervolgens 10 maal knipperen met een frequentie van 0,5 Hz. Bewaar het als “prog 2  dowhile” in de map arduino.
-
-
 
 ## Switch case structuur
 

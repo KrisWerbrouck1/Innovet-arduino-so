@@ -77,13 +77,6 @@ Verklaring:
 * VIH is de minimale spanning aan de ingang voor een logisch “1”
 * VIL is de maximale spanning aan de ingang voor een logisch “0”
 
-Oefening:
-
-* Een ingangsspanning tussen de 0 V en 0,8 V wordt aanzien als? 	
-* Een ingangsspanning tussen de 2 V en 5 V wordt aanzien als?	
-* Een uitgangsspanning tussen de 0 V en 0,4 V wordt aanzien als? 	
-* Een uitgangsspanning tussen de 2,7 V en 5 V wordt aanzien als? 	
-
 ## Instellen arduino bord
 
 Er zijn heel wat verschillende types arduino’s. (UNO, Mega, ...) Kies in de software het gebruikte bord.

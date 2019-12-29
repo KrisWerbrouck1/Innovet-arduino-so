@@ -2,7 +2,9 @@
 
 Het is mogelijk informatie in te voeren in de serial monitor en deze te gebruiken in de arduino.
 
-In onderstaande voorbeeld wordt van een getal de tafel van vermenigvuldiging weergegeven.
+![Inover](./assets/afbeeldingen/invoer.png)
+
+In onderstaande voorbeeld kan de gebruiker ingeven welke tafel van vermenigvuldiging moet weergegeven worden.
 
 ```cpp
 int tafel = 0;
