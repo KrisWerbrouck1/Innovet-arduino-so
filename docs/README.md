@@ -53,6 +53,7 @@ Er is nog alternatieve software om arduino borden te programmeren:
 * Scratch 4 arduino
 * Snap 4 arduino
 * Ardublocks
+
 Deze software is meestal geschikt om een basis rond programmeren aan te leren, maar voorlopig niet voor communicatie met cloud platformen.
 
 ## Arduino uno bord
@@ -83,9 +84,9 @@ Oefening:
 * Een uitgangsspanning tussen de 0 V en 0,4 V wordt aanzien als? 	
 * Een uitgangsspanning tussen de 2,7 V en 5 V wordt aanzien als? 	
 
-## Instellen correcte type arduino bord
+## Instellen arduino bord
 
-Er zijn heel wat verschillende types arduino’s. Kies in de software het gebruikte bord.
+Er zijn heel wat verschillende types arduino’s. (UNO, Mega, ...) Kies in de software het gebruikte bord.
 
 ![Kiezen correct arduino bord](./assets/afbeeldingen/arduinoBord.png)
 
