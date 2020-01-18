@@ -49,7 +49,7 @@ char myChar = 65;
 Waarde aanpassen:
 ```cpp
 myChar = 'B';
-```cpp
+```
 
 Ontwerp een programma om te onderzoeken met welk teken uit de ASCII-tabel volgende waardes overeenkomen:
 ```cpp
@@ -65,10 +65,11 @@ Declareren:
 ```cpp
 byte myByte = 128;
 ```
+
 Waarde aanpassen:
 ```cpp
 myByte = 129;
-```cpp
+```
 
 
 Onderzoeken wat er gebeurt wanneer een variabele van het type byte groter wordt dan 255. Ontwerp hiervoor een programma.
