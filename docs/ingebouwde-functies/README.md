@@ -171,12 +171,12 @@ De toestand van de boolean kan aangepast worden  ```cpp ledStatus = !ledStatus; 
 
 ## Map() 
 
-Met de functie map() kan een waarde verschaald worden.
+Met de functie map() kan een waarde verschaald worden naar een ander bereik. Voorbeeld verschalen van een bereik van 0 tot 1023 naar een bereik van 0 tot 255.
 
 De syntax van deze functie ziet er als volgt uit:
 
 ```cpp
-map(value, fromLow, fromHigh, toLow, toHigh)
+map(waarde, laagste waarde oorspronkelijk bereik, hoogste waarde oorspronkelijk bereik, laagste waarde nieuw bereik, hoogste waarde nieuw bereik)
 ```
 
 Voorbeeld
