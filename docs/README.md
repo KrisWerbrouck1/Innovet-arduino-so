@@ -67,9 +67,9 @@ De arduino UNO beschikt over volgende pinlayout:
 De pinnen 0 tot en met 13 kunnen gebruikt worden als een digitale ingang of uitgang.
 De pinnen A0 tot en met A5 kunnen gebruikt worden als analoge ingang.
 
-De arduino uno maakt gebruik van TTL spanningsniveaus. 
+De arduino uno maakt gebruik van volgende spanningsniveaus. 
 
-![TTL spanningsniveau's](./assets/afbeeldingen/TTL.png)
+![TTL spanningsniveau's](./assets/afbeeldingen/spanningsniveau.png)
 
 Verklaring:
 * VOH is de minimale spanning aan de uitgang voor een logisch “1”
