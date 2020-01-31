@@ -69,7 +69,7 @@ De pinnen A0 tot en met A5 kunnen gebruikt worden als analoge ingang.
 
 De arduino uno maakt gebruik van volgende spanningsniveaus. 
 
-![TTL spanningsniveau's](./assets/afbeeldingen/spanningsniveau.png)
+![TTL spanningsniveau's](./assets/afbeeldingen/spanningsniveaus.png)
 
 Verklaring:
 * VOH is de minimale spanning aan de uitgang voor een logisch “1”
