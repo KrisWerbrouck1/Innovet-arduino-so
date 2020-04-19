@@ -15,7 +15,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  Serial.println("Welke tafel van vermenigvuliding wil je weergeven");
+  Serial.println("Welke tafel van vermenigvuldiging wil je weergeven");
   while (Serial.available() == 0) { //Wacht op data van de gebruiker
   }
   tafel = Serial.parseInt(); //Zet de data van de gebruiker om van een

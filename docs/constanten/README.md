@@ -2,11 +2,27 @@
 
 Een programma moet eenvoudig aanpasbaar zijn. Om instellingen te maken kunnen constanten gebruikt worden. De waarde van een constante kan niet aangepast worden tijdens het uitvoeren van het programma.
 
-![Constanten](./assets/afbeeldingen/constanten1.png)
+Test onderstaande programma uit.
 
-Test bovenstaande programma uit.
+```cpp
+//aanmaken constanten en toekennen waardes
+# define ledPin 13
+# define onTime 500
+# define offTime 500
+void setup() {
+  pinMode(ledPin, OUTPUT); //uitgangspin definiëren.
+}
 
-In plaats van # define wordt ook veel gebruik gemaakt van ```cpp const int ```of ```cpp const float```. Deze methode moet gebruik worden bij voorbeeld het definiëren van het getal PI.
+
+void loop() {
+  digitalWrite(ledPin, HIGH); //uitgang hoog
+  delay(onTime);
+  digitalWrite(ledPin, LOW); //uitgang laag
+  delay(offTime);
+}
+```
+
+In plaats van **# define** wordt ook veel gebruik gemaakt van **const int** of **const float**. Deze methode moet gebruik worden bij voorbeeld het definiëren van het getal PI.
 
 ```cpp
 //aanmaken constanten en toekennen waarde

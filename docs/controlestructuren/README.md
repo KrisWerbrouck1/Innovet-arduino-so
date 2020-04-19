@@ -51,7 +51,7 @@ if (waardeVariabele ?? waarde)  {     Doe iets;  }
 
 In het voorgaande voorbeeld wordt de waardeVariabele vergeleken met een andere waarde. Die waarde kan echter ook een constante zijn. 
 
-Opmerking: Pas op met ```cpp if(x=10)```.  Dit is technisch gezien juist. Het geeft x de waarde 10 en heeft als resultaat altijd TRUE. Gebruik ‘==’.
+Opmerking: Pas op met **if(x=10)**.  Dit is technisch gezien juist. Het geeft x de waarde 10 en heeft als resultaat altijd TRUE. Gebruik **==**.
 
 Voorbeeld:
 ```cpp

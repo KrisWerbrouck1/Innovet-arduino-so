@@ -28,10 +28,6 @@ var2 = true;
 
 Ontwerp een programma om te onderzoeken met welk decimaal getal true en false bij een boolean overeenkomen. Gebruik hiervoor de functie serial.println.
 
-* True: 	
-* False: 	
-
-
 ##	Char
 
 Char is de afkorting van charact value of tekenwaarde. Een variabele van het type char is een reeks van acht enen en nullen (byte), dat een teken van bijvoorbeeld het toetsenbord vertegenwoordigt. Druk je bijvoorbeeld op de toets ‘4’ dan wordt dit aan een char variabele toegewezen als 00110100. Zie ASCII-tabel. 
@@ -70,7 +66,6 @@ Waarde aanpassen:
 ```cpp
 myByte = 129;
 ```
-
 
 Onderzoeken wat er gebeurt wanneer een variabele van het type byte groter wordt dan 255. Ontwerp hiervoor een programma.
 

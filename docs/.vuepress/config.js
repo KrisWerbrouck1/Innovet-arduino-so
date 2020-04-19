@@ -18,7 +18,8 @@ module.exports = {
       ['/operatoren/', 'Operatoren'],
       ['/strings/', 'Strings'],
       ['/ingebouwde-functies/', 'Ingebouwde functies'],
-      ['/eigen-functies/', 'Eigen functies']
+      ['/eigen-functies/', 'Eigen functies'],
+      ['/componentenlijst/', 'Componentenlijst']
     ],
     repo: 'https://github.com/KrisWerbrouck1/Innovet-arduino-so.git',
     docsDir: 'docs',

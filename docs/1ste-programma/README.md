@@ -1,6 +1,6 @@
 # 1ste programma
 
-In het 1ste programma laten we een led knipperen op pin 13.
+In het 1ste programma laten we een de ingebouwde led op de arduino UNO knipperen. De ingebouwde led is verbonden met pin 13.
 
 ## Delen in het programma
 
@@ -45,7 +45,10 @@ void loop() {
   // LED uit (LOW is logisch "0")
   delay(1000);// wacht 1 seconde
 }
+
 ```
+Een grafische voorstelling in flowcode van bovenstaande programma.
+
 ![Grafische voorstelling van een lus in flowcode](./assets/afbeeldingen/1steProgrammaFlowcode.png)
 
 ### { } krullende haakjes (accolade)  
@@ -101,13 +104,13 @@ pinMode(pin, INPUT);  //maak van “pin” een ingang
 
 Opdrachten:
 
-Pin 13 als uitgang plaatsen wordt:
+Vul onderstaande regel code aan om pin 13 als uitgang te plaatsen:
 
 ```cpp 
 pinMode (………………………………………………….…);
 ```
 
-Pin 12 als ingang plaatsen wordt:
+Vul onderstaande regel code aan om pin 12 als ingang te plaatsen:
 
 ```cpp 
 pinMode (……………………………………………………….);
@@ -124,7 +127,7 @@ digitalWrite(pin, LOW);   // maak 'pin' laag
 
 Opdracht:
 
-Pin 13 hoog maken:
+Vul onderstaande regel code aan om pin 13 hoog te maken.
 
 ```cpp 
 digitalWrite (…………………………..…………..);
