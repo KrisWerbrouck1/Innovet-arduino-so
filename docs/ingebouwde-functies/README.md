@@ -99,15 +99,15 @@ In onderstaande voorbeeld wordt een PWM-signaal opgewekt met een duty cycle van 
 
 
 ```cpp
-#define PWM 6   //Op pin 6 wordt het PWM signaal weergegeven
+#define pinPWM 6   //Op pin 6 wordt het PWM signaal weergegeven
 void setup() {
   // put your setup code here, to run once:
-  pinMode(PWM, OUTPUT);
+  pinMode(pinPWM, OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-  analogWrite(PWM, 128); //PWM waarde van 50 % (255 . 50 % = 128)
+  analogWrite(pinPWM, 128); //PWM waarde van 50 % (255 . 50 % = 128)
 }
 
 ```
