@@ -142,6 +142,23 @@ Voorbeeld:
 delay(1000); // wacht een seconde   
 ```
 
+##	Voorbeeldprogramma
+
+```cpp
+void setup() {
+  pinMode(13, OUTPUT);  //maak van pin 13 een uitgang
+}
+
+void loop() {
+  digitalWrite(13, HIGH);   
+  // LED aan (HIGH is logisch "1")
+  delay(1000);// wacht 1 seconde
+  digitalWrite(13, LOW);    
+  // LED uit (LOW is logisch "0")
+  delay(1000);// wacht 1 seconde
+}
+```
+
 ##	Compileren en doorsturen
 
 Het programma bewaren, compileren en in de arduino laden.
