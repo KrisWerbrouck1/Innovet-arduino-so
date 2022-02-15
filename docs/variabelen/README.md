@@ -67,7 +67,23 @@ Waarde aanpassen:
 myByte = 129;
 ```
 
-Onderzoeken wat er gebeurt wanneer een variabele van het type byte groter wordt dan 255. Ontwerp hiervoor een programma.
+Onderzoek wat er gebeurt wanneer een variabele van het type byte groter wordt dan 255. Test dit uit met onderstaande programma.
+
+```cpp
+byte teller = 0;
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  Serial.print("De waarde van de teller is: ");
+  Serial.println(teller);
+  teller = teller + 1;
+  delay(100);
+}
+```
+
+
 
 ##	Int
 
@@ -78,7 +94,21 @@ Declareren:
 ```cpp
 int myInt = 128;
 ```
+Onderzoek wat er gebeurt wanneer een variabele van het type byte groter wordt dan 32 767. Test dit uit met onderstaande programma.
 
+```cpp
+int teller = 0;
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+  Serial.print("De waarde van de teller is: ");
+  Serial.println(teller);
+  teller = teller + 1;
+  delay(1);
+}
+```
 ##	Unsigned int
 
 Een variabele van het type unsigned int vertegenwoordigt een positief getal tussen 0 en 65 535. Voor een integer wordt 16 bit of 2 byte voorzien in het geheugen.
@@ -166,23 +196,27 @@ Een variabele van het type string vertegenwoordigt een reeks ASCII-tekens. Per t
 Enkele voorbeelden
 
 ```cpp 	
-//declaratie van een string voor 15 karakters zonder waarde
-char Str1[15]; 
+//declaratie van een string.
+String demo; 
+//Tekst "Hello world" toewijzen aan de string demo.
+demo="Hello World;
+//De inhoud van de string demo weergeven.
+Serial.println(demo);
+```
+Wat zal er gebeuren in onderstaande programma?
 
-//declaratie van een string van 8 karakters, waarin 7 karakters gebruikt voor het woord arduino. In het achtste karakter wordt het 0 karakter toegevoegd. 
-char Str2[8] = {'a', 'r', 'd', 'u', 'i', 'n', 'o'};
+```cpp
+String teller;
+void setup() {
+  Serial.begin(9600);
+}
 
-// zelfde als bovenstaande voorbeeld, maar met toevoeging van een 0 karakter bij het initialiseren.
-char Str3[8] = {'a', 'r', 'd', 'u', 'i', 'n', 'o', '\0'};
-
-// declaratie van een string met toevoeging van het woord arduino en een 0 karakter op het einde.
-char Str4[ ] = "arduino";
-
-// declaratie van een string met vaste waarde en het woord arduino.
-char Str5[8] = "arduino";
-
-// declaratie van een string voor 15 karakters waarvan er 7 gebruikt worden voor het woord arduino.
-char Str6[15] = "arduino";
+void loop() {
+  Serial.print("De waarde van de teller is: ");
+  Serial.println(teller);
+  teller = teller + 1;
+  delay(1);
+}
 ```
 
 #	Variabele bereik   
