@@ -54,23 +54,19 @@ In onderstaande voorbeeld licht de ingebouwde led op wanneer een logisch "1" aan
 Voorbeeld:
 
 ```cpp
-#define drukknopPin 12
+#define buttonPin 2     // drukknop pin
+#define ledPin 13      // LED pin
 
-boolean drukknopStatus = false;
+boolean buttonState;     //variabele buttonState om toestand ingangsvariabele te bewaren
 
 void setup() {
-  pinMode(LED_BUILTIN, OUTPUT);  //ingebouwde led als uitgang plaatsen
-  pinMode(12, INPUT); // pin 12 als ingang plaatsen
+  pinMode(ledPin, OUTPUT); //pin 13 instellen als uitgang
+  pinMode(buttonPin, INPUT); //pin 2 instellen als ingang
 }
 
 void loop() {
-  drukknopStatus = digitalRead(drukknopPin); //binnenlezen toestand ingang
-  if (drukknopStatus == HIGH) { //indien toestand ingangspin "1" licht ingebouwde led op
-    digitalWrite(LED_BUILTIN, HIGH);
-  }
-  else { //ander licht de ingebouwde led niet op
-    digitalWrite(LED_BUILTIN, LOW);
-  }
+  buttonState = digitalRead(buttonPin); //toestand van de ingangspin bewaren in de boolean buttonState
+  digitalWrite(ledPin, buttonState); //waarde van de variabele buttonState op de uitgang plaatsen
 }
 ```
 
