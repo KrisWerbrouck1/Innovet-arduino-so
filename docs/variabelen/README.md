@@ -26,7 +26,26 @@ var1 = false;
 var2 = true;
 ```
 
-Ontwerp een programma om te onderzoeken met welk decimaal getal true en false bij een boolean overeenkomen. Gebruik hiervoor de functie serial.println.
+In onderstaande programma wordt de toestand van var1 en var2 weergegeven.
+
+```cpp
+boolean var1 = true;
+boolean var2 = false;
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  Serial.print("De toestand van var1 is: ");
+  Serial.println(var1);
+  Serial.print("De toestand van var2 is: ");
+  Serial.println(var2);
+  delay(1000);
+}
+```
 
 ##	Char
 
