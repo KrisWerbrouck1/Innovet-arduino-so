@@ -52,6 +52,8 @@ De voorwaarde moet waar of niet waar zijn.
 
 Enkele mogelijkheden voor de voorwaarde:
 
+|Voorwaarde| Omschrijving|
+|---| ---|
 |x == y | (x is gelijk aan y)|
 |x != y | (x is niet gelijk aan y)|
 |x <  y | (x is kleiner dan y)|
@@ -65,6 +67,8 @@ if (x==10)  {     Doe iets;  }
 if (x>10)   {     Doe iets;  }
 if (x<10)   {     Doe iets;  }
 ```
+Grafische voorstelling:
+
 ![Grafische voorstelling if structuur](./assets/afbeeldingen/if.png)
 
 
@@ -93,12 +97,16 @@ else
 ```
 Enkele mogelijkheden voor de voorwaarde:
 
+|Voorwaarde| Omschrijving|
+|---| ---|
 |x == y | (x is gelijk aan y)|
 |x != y | (x is niet gelijk aan y)|
 |x <  y | (x is kleiner dan y)|
 |x >  y | (x is groter dan y)|
 |x <= y | (x is kleiner of gelijk aan y)|
 |x >= y | (x is groter of gelijk aan y)|
+
+Grafische voorstelling:
 
 ![Grafische voorstelling if-else structuur](./assets/afbeeldingen/ifElse.png)
 
