@@ -46,14 +46,20 @@ De if structuur test of bepaalde condities bereikt zijn. In dat geval moet er ie
 
 Voorbeeld:  
 ```cpp
-if (waardeVariabele ?? waarde)  {     Doe iets;  }   
+if (voorwaarde)  {     Doe iets indien aan de voorwaarde voldaan;  }   
 ```
+De voorwaarde moet waar of niet waar zijn.
 
-In het voorgaande voorbeeld wordt de waardeVariabele vergeleken met een andere waarde. Die waarde kan echter ook een constante zijn. 
+Enkele mogelijkheden voor de voorwaarde:
 
-Opmerking: Pas op met **if(x=10)**.  Dit is technisch gezien juist. Het geeft x de waarde 10 en heeft als resultaat altijd TRUE. Gebruik **==**.
+x == y (x is gelijk aan y)
+x != y (x is niet gelijk aan y)
+x <  y (x is kleiner dan y)
+x >  y (x is groter dan y)
+x <= y (x is kleiner of gelijk aan y)
+x >= y (x is groter of gelijk aan y)
 
-Voorbeeld:
+Voorbeelden:
 ```cpp
 if (x==10)  {     Doe iets;  }   
 if (x>10)   {     Doe iets;  }
@@ -61,6 +67,10 @@ if (x<10)   {     Doe iets;  }
 ```
 ![Grafische voorstelling if structuur](./assets/afbeeldingen/if.png)
 
+
+Opmerking: Pas op met **if(x=10)**.  Dit is technisch gezien juist. Het geeft x de waarde 10 en heeft als resultaat altijd TRUE. Gebruik **==**.
+
+/
 ### Oefeningen
 
 * Ontwerp een programma om de ingebouwde led verbonden met pin 13 tienmaal te laten knipperen met een aan tijd van 500 ms en uit tijd van 500 ms. Bewaar het programma als “prog 1 if”.
@@ -74,13 +84,21 @@ De if… else structuur maakt het mogelijk hoe dan ook iets uit te voeren.  Bijv
 Dat zou er als volgt uit kunnen zien:
  
  ```cpp
-if (inputPin == HIGH)  
-   {Voer actie A uit;  
-   }  
+if (voorwaarde)  
+  {Doe iets indien aan de voorwaarde voldaan;  
+  } 
 else
-   {Voer actie B uit;  
-   }   
+  {Doe iets als niet aan de voorwaarde voldaan is;  
+  }   
 ```
+Enkele mogelijkheden voor de voorwaarde:
+
+x == y (x is gelijk aan y)
+x != y (x is niet gelijk aan y)
+x <  y (x is kleiner dan y)
+x >  y (x is groter dan y)
+x <= y (x is kleiner of gelijk aan y)
+x >= y (x is groter of gelijk aan y)
 
 ![Grafische voorstelling if-else structuur](./assets/afbeeldingen/ifElse.png)
 
@@ -95,16 +113,17 @@ Met if… elseif… else kunnen meerdere toestanden gecontroleerd worden.
 Voorbeeld:
 
  ```cpp
-if (inputPin < 500)  
-  {Voer actie A uit;  
-  }  
-else if (inputPin >= 1000)
-  {Voer actie B uit;  
-  }  
-else  
-  {Voer actie C uit;  
+if (voorwaarde 1)  
+  {Doe iets indien aan voorwaarde 1 voldaan is;  
+  } 
+else if (voorwaarde 2)
+  {Doe iets indien aan voorwaarde 2 voldaan is;  
+  } 
+else
+  {Doe iets als niet aan de voorwaarde voldaan is;  
   }   
 ```
+
 ![Grafische voorstelling if ... elseif ... else structuur](./assets/afbeeldingen/ifIfElse.png)
 
 
