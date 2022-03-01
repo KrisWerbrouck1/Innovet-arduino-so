@@ -52,12 +52,12 @@ De voorwaarde moet waar of niet waar zijn.
 
 Enkele mogelijkheden voor de voorwaarde:
 
-x == y (x is gelijk aan y)
-x != y (x is niet gelijk aan y)
-x <  y (x is kleiner dan y)
-x >  y (x is groter dan y)
-x <= y (x is kleiner of gelijk aan y)
-x >= y (x is groter of gelijk aan y)
+|x == y | (x is gelijk aan y)|
+|x != y | (x is niet gelijk aan y)|
+|x <  y | (x is kleiner dan y)|
+|x >  y | (x is groter dan y)|
+|x <= y | (x is kleiner of gelijk aan y)|
+|x >= y | (x is groter of gelijk aan y)|
 
 Voorbeelden:
 ```cpp
@@ -70,7 +70,7 @@ if (x<10)   {     Doe iets;  }
 
 Opmerking: Pas op met **if(x=10)**.  Dit is technisch gezien juist. Het geeft x de waarde 10 en heeft als resultaat altijd TRUE. Gebruik **==**.
 
-/
+
 ### Oefeningen
 
 * Ontwerp een programma om de ingebouwde led verbonden met pin 13 tienmaal te laten knipperen met een aan tijd van 500 ms en uit tijd van 500 ms. Bewaar het programma als “prog 1 if”.
@@ -93,12 +93,12 @@ else
 ```
 Enkele mogelijkheden voor de voorwaarde:
 
-x == y (x is gelijk aan y)
-x != y (x is niet gelijk aan y)
-x <  y (x is kleiner dan y)
-x >  y (x is groter dan y)
-x <= y (x is kleiner of gelijk aan y)
-x >= y (x is groter of gelijk aan y)
+|x == y | (x is gelijk aan y)|
+|x != y | (x is niet gelijk aan y)|
+|x <  y | (x is kleiner dan y)|
+|x >  y | (x is groter dan y)|
+|x <= y | (x is kleiner of gelijk aan y)|
+|x >= y | (x is groter of gelijk aan y)|
 
 ![Grafische voorstelling if-else structuur](./assets/afbeeldingen/ifElse.png)
 
