@@ -32,7 +32,7 @@ Het is mogelijk data te bewaren in een string via volgende code:
 Serial.println("Typ een tekst in de serial monitor");
 while (Serial.available()==0){ //Wacht op data
   }
-Message1=Serial.readString(); //Zet de data om naar een string
+message1=Serial.readString(); //Zet de data om naar een string
 ```
 
 ## String functies
@@ -41,7 +41,7 @@ Message1=Serial.readString(); //Zet de data om naar een string
 Het aantal tekens in een string bepalen is mogelijk via
 
 ```cpp
-lengte=Message1.length();  //bepalen aantal tekens in de string Message1
+lengte=message1.length();  //bepalen aantal tekens in de string Message1
 ```
 
 ### Oefening:
@@ -54,7 +54,7 @@ Schrijf een programma om te bepalen hoeveel tekens staan in een string die ingev
 Via volgende functie is het mogelijk om hoofdletters om te zetten naar kleine letters.
 
 ```cpp
-Message1.toLowerCase();  //Omzetten naar kleine letters
+message1.toLowerCase();  //Omzetten naar kleine letters
 ```
 
 ### Oefening
@@ -66,7 +66,7 @@ Test bovenstaande functie uit. Zoek vervolgens via welke functie het mogelijk is
 Een ingevoerde string vergelijken met een opgegeven stuk tekst is mogelijk via volgende code.
 
 ```cpp
-  if (Message1 == "Hello") {
+  if (message1 == "Hello") {
     Serial.println("De ingevoerde tekst in gelijk aan Hello");
   }
   else {
@@ -87,7 +87,7 @@ Geef in de serial monitor 2 stukken tekst in. Vergelijk als beide gelijk zijn en
 Het is mogelijk na te zien als een string start met een bepaald stuk tekst. Voorbeeld:
 
 ```cpp
-if (Message1.startsWith("Hello")) {
+if (message1.startsWith("Hello")) {
     Serial.println("De ingevoerde tekst begint met Hello");
   }
   else {
